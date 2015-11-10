@@ -1,0 +1,168 @@
+/* Ajustes */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"]{
+	position:  relative !important;
+	margin-left: 0px !important;
+}
+body{
+	background-color: transparent!important;
+	/*
+	background: url("http://iodeclaro.com/images/background-image.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+	}
+.login-logo, .register-logo{
+	background-color: #fff;
+	height: 55px;
+	margin-bottom: 5px !important;
+}
+.btn-primary{
+	background-color: #ff0c1e !important;
+	border-color:#ff0c1e !important;
+}
+.login-box a{
+	color:#ff0c1e !important;
+}
+.login-box-msg{
+	font-size: 20px; 
+}
+.skin-red .main-header .logo{
+	background-color: #fff !important;
+}
+.content-wrapper, .right-side{
+	 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.wrapper{
+	background-color: transparent!important;
+}
+.main-sidebar{
+	/*background-color: #a1cbb1!important;*/
+    background: -moz-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%)!important;	
+    background: -ms-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%)!important;
+    background: -o-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%)!important;
+    background: -webkit-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%)!important;
+    background: linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%)!important;
+}
+.skin-red .sidebar-menu>li.header{
+	color:#343434 !important;
+	background-color: transparent!important;
+}
+.skin-red .sidebar a{
+	color: #343434 !important;
+}
+.skin-red .sidebar-menu>li>a:hover, .skin-red .sidebar-menu>li.active>a{
+	background-color: #bbd8c6 !important;
+}
+.skin-red .sidebar-menu>li>.treeview-menu{
+	background-color: #4d4d4d !important;
+}
+.skin-red .main-header .navbar{
+	/*background-color: #a1cbb1!important;*/
+    background: -moz-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);	
+		background: -ms-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
+		background: -o-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
+		background: -webkit-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
+		background: linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
+    
+}
+.title{
+    font-size: 2.2em;
+    color: #fff!important;
+    top: 30px;
+}
+.title a{
+    color: #fff;
+}
+.box.box-danger{
+	border-top-color: transparent!important;
+}
+.skin-red .main-header li.user-header{
+	background-color: transparent!important;
+}
+.skin-red .sidebar-menu>li>a:hover, .skin-red .sidebar-menu>li.active>a{
+	border-left-color: transparent!important;
+}
+.pad-5px{
+	padding: 0px 5px;
+}
+.icon-inside-input{
+	position: absolute;
+	top: 42px;
+	right: 0;
+	z-index: 2;
+	display: block;
+	width: 34px;
+	text-align: center;
+	pointer-events: none;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 0;
+  }
+.icon-inside-input2{
+	position: absolute;
+	top: 42px;
+	right: 0;
+	z-index: 2;
+	display: block;
+	width: 34px;
+	text-align: center;
+	pointer-events: none;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 0;
+	}
+.check-box-reg input{
+	display: inline-block;
+	margin-right: 5px !important;	
+}
+.clear-both{
+	 clear: both;
+ }
+.data table{
+	  width: 100%;
+	  max-width: 100%;
+	  border-spacing: 0;
+	  border-collapse: collapse;	
+}
+.data {
+	width: 100%;
+	min-height: .01%;
+	overflow-x: auto;
+}
+.data tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.data td{
+	  border-top: 1px solid #f4f4f4;
+	  padding: 8px 0px;
+	  line-height: 1.42857143;
+	  vertical-align: top;
+}
+.data input{
+	width: 100% !important;
+	  }
+@media (max-width: 768px) {
+  .login-box,
+  .register-box {
+    width: 90% !important;
+    margin-top: 20px !important;
+  }
+}
+

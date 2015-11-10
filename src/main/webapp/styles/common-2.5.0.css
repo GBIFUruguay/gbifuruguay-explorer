@@ -74,7 +74,7 @@
 	  left:10px;
 	  top: 3px;
 	  color:#F0BABB;
-	  font-size:1.0em;
+	  font-size:1.2em;
 	}
 
 	#header_content {
@@ -93,19 +93,19 @@
   #header_content a:hover, #header_message a:hover { color: white; }
 
 	#nav_top {
-		font-size: 1.0em;
+		font-size: 1.2em;
 		margin: 0;
 		padding: 0;
 		position: absolute;
 		right: 0;
-		top: -10px;
+		top: 3px;
 	}
 	#nav_top form {
 		display: inline;
 	}
 
 	#nav_title {
-		background: url("/explorer/assets/images/logo-mvotma.png") top left no-repeat;
+		background: url("http://data.canadensys.net/common/images/canadensys-logo.png") top left no-repeat;
 		background-color: transparent;
 		float: left;
 		font-family: "Century Gothic", Arial, Sans-Serif;
@@ -115,7 +115,7 @@
 		margin: 0;
 		margin-top: 15px;
 		padding: 0;
-		padding-left: 150px; /* for logo */
+		padding-left: 73px; /* for logo */
 	}
 	#nav_title a { color: white !important; }
 
@@ -300,17 +300,15 @@
 	/*-- Footer --*/
 
 	#footer {
-		background: -moz-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);	
-		background: -ms-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
-		background: -o-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
-		background: -webkit-linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
-		background: linear-gradient(bottom, #a1cbb1 0%, #bbd8c6 100%);
-		/*background-color: #961b00;*/
-        /*background-color: #!important;*/
+		background: -moz-linear-gradient(bottom, #4A5FB1 0%, #B3D1FF 100%);	
+		background: -ms-linear-gradient(bottom, #4A5FB1 0%, #B3D1FF 100%);
+		background: -o-linear-gradient(bottom, #4A5FB1 0%, #B3D1FF 100%);
+		background: -webkit-linear-gradient(bottom, #4A5FB1 0%, #B3D1FF 100%);
+		background: linear-gradient(bottom, #4A5FB1 0%, #B3D1FF 100%);
+		background-color: #961b00;
 		clear: both;
 		height: 90px;
 		width: 100%;
-        position: relative;
 		z-index: 1;
 	}
 	#footer_content {
