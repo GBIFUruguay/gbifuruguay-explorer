@@ -51,6 +51,10 @@ public class IndexController {
 	@I18nTranslation(resourceName = "index", translateFormat = "/index")
 	public ModelAndView handleIndex(HttpServletRequest request) {
 		HashMap<String, Object> modelRoot = new HashMap<String, Object>();
+
+		// Set common stuff
+		ControllerHelper.setResourceVariables(request, "index", null,
+				appConfig, modelRoot);
 		
 		return new ModelAndView("index",
 				OccurrencePortalConfig.PAGE_ROOT_MODEL_KEY, modelRoot);
