@@ -301,8 +301,8 @@ ul.buttons li {
   width: 100%;
 }
 #filter_suggestions tr:hover, #filter_suggestions tr.active {
-  background: #a82400;
-  color: white;
+  background: #a1cbb1;
+  /*color: white;*/
   cursor: pointer;
 }
 #filter_suggestions td {
