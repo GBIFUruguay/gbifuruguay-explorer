@@ -130,7 +130,7 @@ public class RewriteConfigurationProvider extends HttpConfigurationProvider{
 	}
 	
 	/**
-	 * HttpOperation to redirect to Explorer home page.
+	 * HttpOperation to redirect to Index home page.
 	 * @author cgendreau
 	 *
 	 */
@@ -140,7 +140,7 @@ public class RewriteConfigurationProvider extends HttpConfigurationProvider{
 			if(!supportedLocale.contains(reqLanguage)){
 				reqLanguage = defaultLanguage;
 			}
-			String landingUrl = I18nUrlBuilder.generateI18nResourcePath(reqLanguage, OccurrencePortalConfig.I18N_TRANSLATION_HANDLER.getTranslationFormat("search"), (String)null);
+			String landingUrl = I18nUrlBuilder.generateI18nResourcePath(reqLanguage, OccurrencePortalConfig.I18N_TRANSLATION_HANDLER.getTranslationFormat("index"), (String)null);
 			Redirect.permanent(event.getContextPath()+landingUrl).perform(event, context);
 		}
 	}
