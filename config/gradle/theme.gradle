@@ -3,7 +3,7 @@ ext {
 }
 
 dependencies {
-	compile("winglongitude:web-theme:${webThemeVersion}@war")
+	compile("gbifuruguay:web-theme:${webThemeVersion}@war")
 }
 
 //include our layout.ftl to the root of 'decorators' as defined in sitemesh3.xml
