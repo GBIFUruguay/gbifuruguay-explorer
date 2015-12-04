@@ -8,7 +8,7 @@
 <@cssAsset fileName="occportal" version=page.currentVersion! useMinified=false/>
 </head>
 <a id="main-content"></a>
-<div id="body">
+<div class="content-wrapper">
 	<div id="content" class="clear_fix no_side_bar">
 		<h1><@defaultIfEmpty text=page.occModel.scientificname! defaulttext=rc.getMessage("occpage.scientificnamenotprovided")/></h1>
 		<p class="details">

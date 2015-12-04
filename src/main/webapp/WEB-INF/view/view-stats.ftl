@@ -7,7 +7,7 @@
 <title>${rc.getMessage("page.search.title")}</title>
 <@cssAsset fileName="occportal" version=page.currentVersion! useMinified=false/>
 </head>
-<div id="body" class="fullscreen">
+<div class="content-wrapper fullscreen">
   <#include "inc/control.ftl">
   <div id="view" class="clear_fix">
     <div class="nav_container">

@@ -5,7 +5,7 @@
 <title>${rc.getMessage("cwt.error.title")}</title>
 <@cssAsset fileName="occportal" version=(page.currentVersion)! useMinified=false/>
 </head>
-<div id="body">
+<div id="body" style="min-height: 269px;">
 	<div id="content" class="no_side_bar">
 		<h1>${rc.getMessage("cwt.error.title")}</h1>
 		<p>${rc.getMessage("cwt.error.message")}

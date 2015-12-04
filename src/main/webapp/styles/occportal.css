@@ -387,7 +387,7 @@ ul.buttons li {
 
 /*-- Download --*/
 
-#download_content input[type=text] { width: 318px; } /* Some general components are declared under filters */
+#download_content input[type=text] { width: 100%; } /* Some general components are declared under filters */
 
 
 /*-- Occurrence preview --*/

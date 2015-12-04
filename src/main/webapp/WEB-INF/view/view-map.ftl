@@ -9,7 +9,7 @@
 <link rel="dns-prefetch" href="${tilerProtocol}://${tilerDomain}"/>
 <link rel="prefetch" href="${tilerProtocol}://${tilerDomain}"/>
 </head>
-<div id="body" class="fullscreen full_height">
+<div class="content-wrapper fullscreen full_height">
   <#include "inc/control.ftl">
   <div id="view" class="clear_fix">
     <div class="nav_container">
