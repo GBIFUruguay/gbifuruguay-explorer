@@ -10,7 +10,7 @@
 <!-- Leaflet related configuration-->
 <link rel="stylesheet" href="/explorer/assets/styles/leaflet.css" />
 </head>
-<div class="content-wrapper" style="min-height: 269px;">
+<div class="content-wrapper" style="min-height: 270px;">
     <section>
 	  	<div class="boxcontent">
 			<a id="main-content"></a>
