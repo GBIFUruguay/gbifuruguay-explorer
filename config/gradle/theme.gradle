@@ -8,7 +8,7 @@ dependencies {
 
 //include our layout.ftl to the root of 'decorators' as defined in sitemesh3.xml
 war {
-	from("${webAppDirName}/decorators/layouts/default"){
+	from("${webAppDirName}/decorators/layouts/gbifuruguay"){
         into("decorators")
 	}
 }
